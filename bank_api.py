@@ -21,7 +21,7 @@ class account:
             else: 
                 self.__admin = False
                 return 'accepted'
-        else: return 'incorrect password'
+        else: return 'incorrect value'
     
     def password_check(self):
         value = input('set value')
